@@ -8,6 +8,7 @@ import CollectionPreview from '../collection-preview/collection-preview';
 
 
 const CollectionOverview = ({ shop }) => {
+    console.log(shop)
     return (
         <div className="collections-overview">
             {shop.map(({ id, ...otherCollectionProps }) => (
